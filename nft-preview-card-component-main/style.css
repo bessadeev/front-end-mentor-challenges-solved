@@ -36,7 +36,7 @@ main{
     left: 50%;
     top: 46%;
     transform: translate( -50%, -50%);
-    max-width: 250px;
+    width: 250px;
     max-height: 500px;
     background-color: var(--Very-dark-blue-card-BG);
     padding: 20px;
