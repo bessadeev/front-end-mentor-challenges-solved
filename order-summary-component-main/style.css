@@ -31,9 +31,10 @@ main{
 
 .card{
     width: 340px;
-    height: 500px;
+    height: 530px;
     background-color: var(--Very-pale-blue);
     border-radius: 15px;
+    box-shadow: 3px 3px 10px hsla(245, 75%, 52%, 0.329);
 }
 
 .img-card{
@@ -61,12 +62,12 @@ main{
 
 .text-card p{
     color: var(--Desaturated-blue);
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .plan-card{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--Pale-blue);
     margin: 20px;
@@ -74,22 +75,94 @@ main{
     border-radius: 15px;
 }
 
+.plan-card-text{
+    font-size: 15px;
+}
+
+p#annual-plan{
+    font-weight: bold;
+    color: var(--Dark-blue);
+}
+
+p#money{
+    font-weight: bold;
+    color: var(--Desaturated-blue);
+}
+
 .plan-card-grup{
     display: flex;
     align-items: center;
-    gap: 10px;
+    padding-left: 15px;
+}
+
+.plan-card a{
+    color: var(--Bright-blue);
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.plan-card a:hover{
+    color: var(--Desaturated-blue);
 }
 
 .icon-music{
     display: flex;
     align-items: center;
+    padding-right: 10px;
 }
+.icon-music img{
+    max-width: 40px;
+}
+
+
 
 .attribution{
     font-size: 11px; 
     text-align: center; 
+    padding-top: 30px;
 }
 
 .attribution a{ 
     color: hsl(228, 45%, 44%); 
 }
+
+.card-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0px;
+}
+
+.card-buttons button {
+    width: 75%;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+}
+
+button#one{
+    background-color: var(--Bright-blue);
+    color: var(--Very-pale-blue);
+    font-weight: bold;
+    font-family: 'Red Hat Display';
+    box-shadow: 3px 3px 10px hsla(245, 75%, 52%, 0.329);
+}
+
+button#one:hover{
+opacity: 80%;
+cursor: pointer;
+}
+
+a#two{
+    font-family: 'Red Hat Display';
+    font-weight: bolder;
+    text-decoration: none;
+    color: var(--Dark-blue);
+    font-size: 14px;
+}
+
+a#two:hover{
+    color: var(--Bright-blue);
+}
+
+
