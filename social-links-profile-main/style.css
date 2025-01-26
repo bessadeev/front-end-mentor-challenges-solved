@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Grey-900);
+    width: 100vw;
+    height: 100vh;
+    font-family: "Inter", serif;
+}
+
+.card{
+    background-color: var(--Grey-800);
+    width: 320px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-image img{
+    width: 90px;
+    border-radius: 50%;
+}
+
+.introduction{
+    padding: 10px;
+    text-align: center;
+}
+
+.introduction h1{
+    color: var(--White);
+    padding-bottom: 5px;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.introduction h2{
+    color: var(--Green);
+    font-size: 0.9em;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.introduction p{
+    color: white;
+    font-size: 0.8em;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+}
+
+.social-links a{
+    background-color: var(--Grey-700);
+    width: 85%;
+    padding: 14px 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.social-links a:hover{
+    background-color: var(--Green);
+    color: var(--Grey-800);
+    transition: 0.3s;
+}
+
