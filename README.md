@@ -5,7 +5,7 @@
 </p>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/nft-preview-card-component-main">1-nft preview card</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/order-summary-component-main/">2-order summary</a> <br>
-<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">3-desafio</a> <br>
+<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/social-links-profile-main/">3-social links profile</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">4-desafio</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">5-desafio</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">6-desafio</a> <br>
