@@ -3,8 +3,8 @@
 <p>
   Solucionando alguns desafios do site Frontend Mentor.
 </p>
-<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/nft-preview-card-component-main">1-desafio</a> <br>
-<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/order-summary-component-main/">2-desafio</a> <br>
+<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/nft-preview-card-component-main">nft preview card</a> <br>
+<a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/order-summary-component-main/">order summary</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">3-desafio</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">4-desafio</a> <br>
 <a href="https://bessadeev.github.io/front-end-mentor-challenges-solved/">5-desafio</a> <br>
