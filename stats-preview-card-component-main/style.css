@@ -111,32 +111,38 @@ main{
     text-decoration: underline;
 }
 
-   /* TABLET */
+   /* MOBILE */ 
  
 @media (max-width: 820px) {
+
     main{
-        padding: 40px 15px;
+        padding: 40px 0px;
+        overflow: hidden;
+        height: 100vh;
     }
 
     .card-main{
         display: flex;
         flex-direction: column-reverse;
-        max-width: 400px;
+        max-width: 300px;
+        height: 600px;
     }
 
     .left-card {
         width: 100%;
-        height: 68%;
+        height: 70%;
         padding: 35px 35px 10px 35px;
     }
 
     .left-card h1{
        text-align: center;
+       font-size: 23px;
     }
 
     .left-card p{
         text-align: center;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
+        font-size: 13px;
     }
 
     .left-card .threeitens{
@@ -144,66 +150,30 @@ main{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        gap: 10px;
+        gap: 5px;
+        align-content: space-between
         
+    }
+
+    .threeitens h2{
+        font-size: 18px;
+    }
+
+    .threeitens p{
+        font-size: 12px;
     }
 
     .right-card{
         width: 100%;
-        height: 32%;
+        height: 30%;
         border-radius: 10px 10px 0px 0px;
     }
 
     .attribution{
         display: none;
     }
+
 }
 
-   /* MOBILE */   
+  
 
-@media (max-width: 415px) {
-    
-    main{
-        padding: 40px 15px;
-    }
-
-    .card-main{
-        display: flex;
-        flex-direction: column-reverse;
-        max-width: 400px;
-    }
-
-    .left-card {
-        width: 100%;
-        height: 68%;
-        padding: 35px 35px 10px 35px;
-    }
-
-    .left-card h1{
-       text-align: center;
-    }
-
-    .left-card p{
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .left-card .threeitens{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-        
-    }
-
-    .right-card{
-        width: 100%;
-        height: 32%;
-        border-radius: 10px 10px 0px 0px;
-    }
-
-    .attribution{
-        display: none;
-    }
-}
