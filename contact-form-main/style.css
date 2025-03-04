@@ -37,10 +37,10 @@ label{
 
 .card{
     width: 600px;
-    height: 590px;
+    height: 610px;
     background-color: var(--White);
 
-    padding: 25px;
+    padding: 40px;
     border-radius: 10px;
 }
 
